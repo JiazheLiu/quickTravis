@@ -89,7 +89,7 @@ function Header() {
                         </Grid>
                         <Grid item xs>
                             <StyleTypography variant="h6" className="header-title" align="center">
-                                ChoreDay
+                                ChoreYear
                             </StyleTypography>
                         </Grid>
                         <Grid item xs>
