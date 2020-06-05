@@ -42,7 +42,7 @@ const AddGroup = ({uid, invite}) => {
 
     return (
         <div>
-            <Button color="primary" onClick={handleClickOpen}>Add Group</Button>
+            <Button data-cy="addgroup" color="primary" onClick={handleClickOpen}>Add Group</Button>
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>Add a group</DialogTitle>
                 <DialogContent className="dialog-root">
@@ -57,7 +57,7 @@ const AddGroup = ({uid, invite}) => {
                     <Button onClick={handleClose} color="primary">
                         Cancel
                     </Button>
-                    <Button onClick={handleSave} color="primary">
+                    <Button data-cy="save" onClick={handleSave} color="primary">
                         Save
                     </Button>
                 </DialogActions>
