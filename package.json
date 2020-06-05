@@ -18,14 +18,14 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:ci": "cypress run --config video=false",
+    "test:ci": "react-scripts test --watchAll=false && start-server-and-test start http://localhost:3000 cypress:ci",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cypress:open": "cypress open",
-    "deploy": "react-scripts build && firebase deploy",
-    "cypress:ci": "cypress run --config video=false",
-    "test:ci": "react-scripts test --watchAll=false && start-server-and-test start http://localhost:3000 cypress:ci"
+    "deploy": "react-scripts build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.9.10",
+    "cypress": "^4.7.0",
     "start-server-and-test": "^1.11.0"
   }
 }
