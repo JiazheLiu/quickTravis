@@ -47,7 +47,7 @@ export default function SimpleBottomNavigation() {
             className="footer-nav"
         >
                 {/* <Link to="/groups"> */}
-                    <BottomNavigationAction label="Groups"
+                    <BottomNavigationAction data-cy="togroup" label="Groups"
                                             icon={<GroupIcon/>} component={LinkBehavior}/>
                 {/* </Link> */}
 

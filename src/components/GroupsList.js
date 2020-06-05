@@ -65,7 +65,7 @@ const GroupsList = () => {
             : (
                 <div>
                     <div className="ListSpacer"/>
-                    <Typography variant="h5" style={{textAlign: 'center'}}>Loading...</Typography>
+                    <Typography data-cy="loading" variant="h5" style={{textAlign: 'center'}}>Loading...</Typography>
                 </div>
             )
 
