@@ -62,7 +62,7 @@ const JoinGroup = ({uid}) => {
         <div>
             <Button color="primary" onClick={handleClickOpen}>Join Group</Button>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>Join an existing group</DialogTitle>
+                <DialogTitle >Join an existing group</DialogTitle>
                 <DialogContent className="dialog-root">
                     <div className="dialog-wrap">
                         <TextField id="group-name"
