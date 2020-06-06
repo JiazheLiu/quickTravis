@@ -88,7 +88,7 @@ function Header() {
                             )}
                         </Grid>
                         <Grid item xs>
-                            <StyleTypography data-cy="ChoreYear" variant="h6" className="header-title" align="center">
+                            <StyleTypography data-testid="headerTest" data-cy="ChoreYear" variant="h6" className="header-title" align="center">
                                 ChoreYear
                             </StyleTypography>
                         </Grid>

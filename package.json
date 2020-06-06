@@ -7,7 +7,6 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/pickers": "^3.2.10",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "date-fns": "^2.12.0",
     "firebase": "^7.14.0",
@@ -44,6 +43,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.9.10",
+    "@testing-library/react": "^9.5.0",
     "cypress": "^4.7.0",
     "start-server-and-test": "^1.11.0"
   }
