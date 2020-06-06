@@ -51,9 +51,10 @@ const Chore = ({ uid, chore }) => {
     };
 
     return (
-        <ListItem className="ChoreWrapper"
+        <ListItem className="ChoreWrapper">
             <ListItemIcon>
-                <Checkbox checked={checked}
+                <Checkbox data-testid={chore.cid}
+                          checked={checked}
                           onChange={handleChange}
                           inputProps={{'aria-label': 'primary checkbox'}}
                 />
@@ -62,7 +63,7 @@ const Chore = ({ uid, chore }) => {
                           secondary={chore.groupName}
             />
             <ListItemSecondaryAction>
-                <div className={status} data-testid = {chore.cid}>
+                <div className={status}>
                     Pending
                 </div>
                 <Chip label={chore.dueDate.toDateString()}
