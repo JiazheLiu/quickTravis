@@ -51,7 +51,7 @@ const Chore = ({ uid, chore }) => {
     };
 
     return (
-        <ListItem className="ChoreWrapper">
+        <ListItem className="ChoreWrapper"
             <ListItemIcon>
                 <Checkbox checked={checked}
                           onChange={handleChange}
