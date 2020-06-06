@@ -62,7 +62,7 @@ const Chore = ({ uid, chore }) => {
             <ListItemText primary={chore.name}
                           secondary={chore.groupName}
             />
-            
+            <ListItemSecondaryAction>
                 <div className={status}>
                     Pending
                 </div>
